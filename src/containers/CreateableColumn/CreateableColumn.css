@@ -1,0 +1,108 @@
+/* column container */
+.column-container {
+	padding: 10px;
+}
+
+/* create backlog task button */
+.create-backlog-button {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #fff !important;
+	font-size: .85rem !important;
+	font-weight: 500 !important;
+	text-transform: capitalize !important;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+	background-color: #2196f3 !important;
+}
+
+/* create in progress task button */
+.create-inProgress-button {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #fff !important;
+	font-size: .85rem !important;
+	font-weight: 500 !important;
+	text-transform: capitalize !important;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+	background-color: #651fff !important;
+}
+
+/* confirm button for creating a task */
+.confirm-button {
+	width: 50% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #fff !important;
+	font-size: .85rem !important;
+	font-weight: 500 !important;
+	text-transform: capitalize !important;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	background-color: #2196f3 !important;
+	box-shadow: none !important;
+}
+
+/* confirm button disabled state */
+.confirm-button:disabled {
+	background-color: #9e9e9e !important;
+	cursor: not-allowed !important;
+	pointer-events: auto !important;
+}
+
+/* cancel button */
+.cancel-button {
+	width: 50% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #fff !important;
+	font-size: .85rem !important;
+	font-weight: 500 !important;
+	text-transform: capitalize !important;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	background-color: #e53935 !important;
+	box-shadow: none !important;
+}
+
+/* tasks wrapper */
+.tasks-wrapper {
+	max-height: 77vh !important;
+	overflow-y: scroll !important;
+	margin-top: 10px;
+	padding: 2px;
+}
+
+/* tasks wrapper scrollbar, track and thumb */
+.tasks-wrapper::-webkit-scrollbar,
+.tasks-wrapper::-webkit-scrollbar-track,
+.tasks-wrapper::-webkit-scrollbar-thumb {
+	display: none !important;
+	width: 0 !important;
+}
+
+/* tag container */
+.tag-container {
+	display: flex !important;
+	margin-bottom: 2px;
+}
+
+/* tag */
+.tag {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: .65rem !important;
+	font-weight: 400 !important;
+	color: #78909c !important;
+}

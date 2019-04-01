@@ -1,0 +1,39 @@
+/* task content */
+.task-content {
+	width: 100%;
+	padding: 10px 14px !important;
+	box-sizing: border-box;
+}
+
+/* task title container */
+.task-title-container {
+	display: inline-flex;
+	word-break: break-word;
+	max-width: 80%;
+}
+
+/* task title */
+.task-title {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 1rem !important;
+	font-weight: 500 !important;
+}
+
+/* expand button container */
+.task-content .expand-button-container {
+	display: inline-flex;
+	float: right;
+	vertical-align: top;
+}
+
+/* icon buttton */
+.task-content .icon-button {
+	padding: 2px !important;
+	transition: transform .15s ease-in-out;
+}
+
+/* icon button icon size */
+.task-content .icon-button .icon {
+	font-size: 22px;
+}

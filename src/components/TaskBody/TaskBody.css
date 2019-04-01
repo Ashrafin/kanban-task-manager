@@ -1,0 +1,59 @@
+/* expand content */
+.expand-content {
+	padding: 0px 14px 0px 14px !important;
+}
+
+/* task message */
+.task-message {
+	font-size: .85rem !important;
+	font-weight: 400 !important;
+	margin-bottom: 10px !important;
+	word-break: break-word;
+}
+
+/* task date */
+.task-date {
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+	font-size: .75rem !important;
+	font-weight: 400 !important;
+}
+
+/* actions container */
+.actions-container {
+	padding: 5px 14px 10px 14px !important;
+}
+
+/* edit button */
+.edit-button {
+	background-color: #43a047 !important;
+}
+
+/* delete button */
+.delete-button {
+	background-color: #e53935 !important;
+}
+
+/* left and right button */
+.left-button,
+.right-button {
+	background-color: #607d8b !important;
+}
+
+/* edit button, delete button, left button, right button sizing and spacing */
+.edit-button,
+.delete-button,
+.left-button,
+.right-button {
+	width: 36px !important;
+	height: 36px !important;
+	margin: 0 8px 0 0 !important;
+	box-shadow: none !important;
+	color: #fff !important;
+}
+
+/* edit button and delete button icon size */
+.edit-button .icon,
+.delete-button .icon {
+	font-size: 16px !important;
+}

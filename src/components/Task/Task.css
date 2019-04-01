@@ -1,0 +1,10 @@
+/* task container */
+.task-container {
+	border-radius: 4px;
+	margin-bottom: 16px;
+}
+
+/* task container last element */
+.task-container:last-child {
+	margin-bottom: 0;
+}

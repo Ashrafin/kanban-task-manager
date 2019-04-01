@@ -1,0 +1,22 @@
+/* form control */
+.form-control {
+	display: block;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	margin-bottom: 8px !important;
+}
+
+/* form control 3rd input */
+.form-control:nth-child(3) {
+	margin-top: 10px;
+	margin-bottom: 16px !important;
+}
+
+.title-input:first-child {
+	margin-top: 0;
+}
+
+/* message input */
+.message-input {
+	margin: 0 !important;
+}
